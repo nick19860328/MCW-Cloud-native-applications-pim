@@ -5,7 +5,7 @@ on:
     branches:
     - master
     paths:
-    - 'Fabmedical/content-api/**'
+    - '/content-api/**'
   # Configure workflow to also support triggering manually
   workflow_dispatch:
 # Environment variables are defined so that they can be used throughout the job definitions.
