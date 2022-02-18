@@ -5,7 +5,7 @@ on:
     branches:
     - master
     paths:
-    - 'content-api/**'
+    - 'Fabmedical/content-api/**'
   # Configure workflow to also support triggering manually
   workflow_dispatch:
 # Environment variables are defined so that they can be used throughout the job definitions.
@@ -15,7 +15,7 @@ env:
   clusterName: 'fabmedical-ndc'
   containerRegistryName: 'fabmedicalndc'
   containerRegistry: 'fabmedicalndc.azurecr.io'
-  dockerfilePath: './Fabmedical/content-api'
+  dockerfilePath: './content-api'
   tag: '${{ github.run_id  }}'
 # Jobs define the actions that take place when code is pushed to the main branch
 jobs:
