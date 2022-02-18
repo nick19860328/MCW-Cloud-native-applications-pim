@@ -15,7 +15,7 @@ env:
   clusterName: 'fabmedical-ndc'
   containerRegistryName: 'fabmedicalndc'
   containerRegistry: 'fabmedicalndc.azurecr.io'
-  dockerfilePath: './content-api'
+  dockerfilePath: './Fabmedical/content-api'
   tag: '${{ github.run_id  }}'
 # Jobs define the actions that take place when code is pushed to the main branch
 jobs:
